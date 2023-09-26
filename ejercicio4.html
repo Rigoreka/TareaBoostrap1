@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Lista de videos</title>
+    <!--Incluir librerias bootstrap-->
+
+   <!-- Agrega los estilos CSS de Bootstrap (coloque este enlace antes de su archivo CSS personalizado) -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Agrega el script de jQuery (requerido para algunos componentes de Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Agrega los scripts de Bootstrap (coloque estos enlaces antes de su archivo JS personalizado) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+   
+</head>
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About</h4>
+                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                  <li><a href="#" class="text-white">Like on Facebook</a></li>
+                  <li><a href="#" class="text-white">Email me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+              <strong></strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      
+      <main>
+      
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Album de Vídeos</h1>
+              <p class="lead text-muted"></p>
+              <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+              <div class="col">
+                <div class="card shadow-sm">
+                  <iframe width="100%" height="225" src="https://www.youtube.com/embed/k6jqx9kZgPM?si=KCcFkxxC9gMy4tcq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="card-body">
+                      <p class="card-text">TWICE "Talk that Talk" M/V</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/k6jqx9kZgPM">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">9 mins</small>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <!-- tarjeta 2 -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <iframe width="100%" height="225" src="https://www.youtube.com/embed/woKq2sD8xho?si=9mrR8qZkYi9C2GD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="card-body">
+                      <p class="card-text">MISAMO “Do not touch” M/V</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/woKq2sD8xho">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">5 mins</small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- tarjeta 3 -->
+          <div class="col">
+              <div class="card shadow-sm">
+                  <div class="card-body">
+                    <iframe width="100%" height="225" src="https://www.youtube.com/embed/CdZN8PI3MqM?si=576dH4lfwZ9We-36" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <p class="card-text">Ticking Away ft. Grabbitz & bbno$ (Video musical oficial) // Himno de VALORANT Champions 2023</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/CdZN8PI3MqM">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">5 mins</small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- tarjeta 4 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <iframe width="100%" height="225" src="https://www.youtube.com/embed/h7MYJghRWt0?si=yvW5nPps0L8qrKZO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="card-body">
+                    <p class="card-text">Die For You // Video musical oficial // VALORANT Champions 2021</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/h7MYJghRWt0">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">5 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+          <!-- tarjeta 5 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <iframe width="100%" height="225" src="https://www.youtube.com/embed/MHxJXBLJW98?si=aRlCtbs4PUZ16Iap" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                <div class="card-body">
+                    <p class="card-text">greater than one // ericdoa and VALORANT</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/MHxJXBLJW98">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">5 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <!-- tarjeta 6 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <iframe width="100%" height="225" src="https://www.youtube.com/embed/sQzqHUV7SRg?si=FRnMwlviJMzTcrh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="card-body">
+                    <p class="card-text">VISIONS</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/sQzqHUV7SRg">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">10:57 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <!-- tarjeta 7 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <iframe width="100%" height="225" src="https://www.youtube.com/embed/xU2U73Tk-DM?si=LqpVz4mpeUmuqmI1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="card-body">
+                    <p class="card-text">Can’t Slow Me Down // Video musical de Jett Hype - VALORANT</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/xU2U73Tk-DM">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">5:02 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          <!-- tarjeta 8 -->
+          <div class="col">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                  <iframe width="100%" height="225" src="https://www.youtube.com/embed/0Uhh62MUEic?si=N0L9hCxJssNrqyfn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p class="card-text">Hikaru Utada 『One Last Kiss』</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/0Uhh62MUEic">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        </div>
+                        <small class="text-muted">24:03 mins</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+             <!-- tarjeta 9 -->
+             <div class="col">
+              <div class="card shadow-sm">
+                <iframe width="100%" height="225" src="https://www.youtube.com/embed/PRI7vd4Ojh8?si=j6sWiV7_IIgztDB-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="card-body">
+                      <p class="card-text">Genshin Impact - Video promocional de la BSO de Fontaine «Lamentation et Triomphe»</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://youtu.be/PRI7vd4Ojh8">Ver</a></button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                          </div>
+                          <small class="text-muted">24:03 mins</small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- ------------------------------------------- -->
+            </div>
+          </div>
+        </div>
+      
+      </main>
+      
+      <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Vuelve arriba</a>
+          </p>
+        </div>
+      </footer>
+      
+</body>
+</html>
